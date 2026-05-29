@@ -1,10 +1,41 @@
-## CRUD API using PotgreSQL & Express.js
+# CRUD API using PostgreSQL & Express.js
 
-# npm i express pg dotenv joi cors
+## Install Dependencies
 
-# npm i
+```bash
+npm install
+```
 
-# npm i --save-dev nodemon
+Or install packages manually:
 
+```bash
+npm install express pg dotenv joi cors
+```
 
-# Server is running on port 5001
+## Install Nodemon (Development)
+
+```bash
+npm install --save-dev nodemon
+```
+
+## Run PostgreSQL with Docker
+
+```bash
+docker run --name postgres-db -e POSTGRES_PASSWORD=super -p 5432:5432 -d postgres
+```
+
+```bash
+postgres ps
+```
+
+```bash
+docker exec -it postgres-db psql -U postgres
+```
+
+## Start Server
+
+The server runs on:
+
+```text
+http://localhost:5001
+```
