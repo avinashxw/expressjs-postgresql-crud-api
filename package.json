@@ -1,0 +1,29 @@
+{
+  "name": "expressjs-postgresql-crud-api",
+  "version": "1.0.0",
+  "description": "expressjs postgresql CRUD API",
+  "keywords": [
+    "expressjs",
+    "postgresql",
+    "crud",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Avinash Wadhawan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
