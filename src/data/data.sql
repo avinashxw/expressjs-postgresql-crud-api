@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS users (
+    uid SERIAL PRIMARY KEY,
+    u_name VARCHAR(255) NOT NULL,
+    u_email VARCHAR(255) NOT NULL UNIQUE,
+    u_createdAt TIMESTAMP DEFAULT NOW()
+);
